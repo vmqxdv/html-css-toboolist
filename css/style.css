@@ -3,21 +3,24 @@ body {
 }
 
 header {
-  height: 12vh;
-  line-height: 12vh;
-  padding: 0 0 0.5em 1em;
+  height: 8vh;
+  line-height: 7vh;
+  padding-left: 0.7em;
+  text-align: left;
 }
 
 .main-logo {
+  height: 4.75vh;
   vertical-align: middle;
-  display: inline-block;
 }
 
-h1 {
+.main-title {
   display: inline-block;
   vertical-align: middle;
   font-family: Arial, Helvetica, sans-serif;
   line-height: normal;
+  font-weight: bold;
+  font-size: 3.5vh;
 }
 
 main {
