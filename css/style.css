@@ -19,3 +19,16 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   line-height: normal;
 }
+
+main {
+  background-color: #f6f8f9;
+  padding: 2em 5em 2em 5em;
+}
+
+.container {
+  background-color: white;
+  border-radius: 0.5em;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em 2em 1em 2em;
+}
