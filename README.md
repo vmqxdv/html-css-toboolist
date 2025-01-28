@@ -2,7 +2,8 @@
 **Nome in codice:** html-css-toboolist
 
 ### Descrizione Esercizio:
-Ricrearea una Todo List seguendo il ![questo layout](https://github.com/user-attachments/assets/b45e2127-5b1f-4ab7-96d2-e38723a61448) (28/01/2025).
+Ricrearea una Todo List seguendo il seguente layout (28/01/2025).
+![layout](https://github.com/user-attachments/assets/b45e2127-5b1f-4ab7-96d2-e38723a61448)
 
 ## Struttura
 - **index.html**: La pagina principale del progetto.
