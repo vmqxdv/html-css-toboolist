@@ -20,13 +20,28 @@ header {
   vertical-align: middle;
   line-height: normal;
   font-weight: bold;
-  font-size: 3.5vh;
+  font-size: 4vh;
 }
 
 main {
   background-color: #f6f8f9;
   padding: 2em 5em 2em 5em;
   color: #444851;
+}
+
+.top-buttons,
+.tasks-section {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.top-buttons {
+  padding: 0.5em 0 0.3em 2em;
+  background-color: white;
+  border-radius: 0.5em 0.5em 0 0;
+  border-bottom: solid;
+  border-color: #f6f8f9;
 }
 
 button {
@@ -49,28 +64,16 @@ button {
   color: #cacfd4;
 }
 
-.top-buttons {
-  background-color: white;
-  border-radius: 0.25em 0.25em 0 0;
-  width: 80%;
-  margin: 0 auto;
-  padding: 0.5em 2em 1em 2em;
-  padding-bottom: 0.3em;
-  border-bottom: solid;
-  border-color: #f6f8f9;
-}
-
 .tasks-section {
-  background-color: white;
-  border-radius: 0 0 0.35em 0.35em;
-  width: 80%;
-  margin: 0 auto;
-  padding: 1.5em 2em 1em 2em;
   position: relative;
+  background-color: white;
+  border-radius: 0 0 0.5em 0.5em;
+  box-sizing: border-box;
+  padding: 0.5em 0 0.5em 2em;
 }
 
-.tasks-title {
-  font-weight: bold;
+.task-title {
+  position: absolute;
 }
 
 span {
@@ -79,6 +82,11 @@ span {
   padding: 0 0.2em;
   border: .1em solid;
   border-radius: 50%;
+}
+
+.task-data {
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .task-status-complete {
@@ -90,19 +98,40 @@ span {
 }
 
 .task-name {
-  float: left;
+  display: inline-block;
+  padding-bottom: 0.45em;
 }
 
 .task-tags {
-  float: left;
+  display: inline-block;
+  color: white;
   font-weight: normal;
   font-size: 0.5em;
   padding: 0.5em 1em;
   border-radius: 1em;
-  margin-left: 1em;
+  margin-left: 0.4em;
 }
 
 #tag-edit {
-  color: white;
   background-color: #45abe9;
+}
+
+#tag-goal {
+  background-color: #9c72e4;
+}
+
+#tag-recru {
+  background-color: #64c0a9;
+}
+
+#tag-mobile {
+  background-color: #f29e33;
+}
+
+#tag-web {
+  background-color: #d863a1;
+}
+
+#tag-sales {
+  background-color: #b0c926;
 }
