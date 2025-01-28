@@ -28,14 +28,6 @@ main {
   padding: 2em 5em 2em 5em;
 }
 
-.container {
-  background-color: white;
-  border-radius: 0.5em;
-  width: 80%;
-  margin: 0 auto;
-  padding: 1em 2em 1em 2em;
-}
-
 button {
   border-radius: 0.5em;
   border-width: 1.5px;
@@ -54,4 +46,23 @@ button {
   border-style: solid;
   border-color: #cacfd4;
   color: #cacfd4;
+}
+
+.top-buttons {
+  background-color: white;
+  border-radius: 0.35em 0.35em 0 0;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.70em 2em 1em 2em;
+  padding-bottom: 0.3em;
+  border-bottom: solid;
+  border-color: #f6f8f9;
+}
+
+.tasks-section {
+  background-color: white;
+  border-radius: 0 0 0.35em 0.35em;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.70em 2em 1em 2em;
 }
