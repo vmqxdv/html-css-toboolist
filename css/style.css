@@ -1,5 +1,6 @@
 body { 
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -17,7 +18,6 @@ header {
 .main-title {
   display: inline-block;
   vertical-align: middle;
-  font-family: Arial, Helvetica, sans-serif;
   line-height: normal;
   font-weight: bold;
   font-size: 3.5vh;
@@ -26,6 +26,7 @@ header {
 main {
   background-color: #f6f8f9;
   padding: 2em 5em 2em 5em;
+  color: #444851;
 }
 
 button {
@@ -64,5 +65,44 @@ button {
   border-radius: 0 0 0.35em 0.35em;
   width: 80%;
   margin: 0 auto;
-  padding: 0.70em 2em 1em 2em;
+  padding: 1.5em 2em 1em 2em;
+  position: relative;
+}
+
+.tasks-title {
+  font-weight: bold;
+}
+
+span {
+  font-size: small;
+  font-weight: bold;
+  padding: 0 0.2em;
+  border: .1em solid;
+  border-radius: 50%;
+}
+
+.task-status-complete {
+  color: #65c0a9;
+}
+
+.task-status-incomplete {
+  color: #ef726a;
+}
+
+.task-name {
+  float: left;
+}
+
+.task-tags {
+  float: left;
+  font-weight: normal;
+  font-size: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  margin-left: 1em;
+}
+
+#tag-edit {
+  color: white;
+  background-color: #45abe9;
 }
